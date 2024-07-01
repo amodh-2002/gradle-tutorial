@@ -40,5 +40,6 @@ steps:
     bucketName: 'java-test-upload-01072024'
     sourceFolder: '$(Build.ArtifactStagingDirectory)/build'
     globExpressions: '**'
+    createBucket: true
 
 
